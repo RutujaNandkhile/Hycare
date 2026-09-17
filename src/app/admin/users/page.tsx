@@ -308,8 +308,7 @@ export default function AdminUsersPage() {
 
               {creating && (
                 <p className="text-xs text-gray-500 bg-gray-50 border rounded-lg p-3">
-                  Username आणि password auto-generate होऊन user च्या email वर
-                  पाठवले जातील.
+                  The username and password will be automatically generated and sent to the user's email address.
                 </p>
               )}
             </div>
