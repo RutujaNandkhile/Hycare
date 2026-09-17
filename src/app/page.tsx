@@ -1015,7 +1015,7 @@ export default function HomePage() {
               >
 
                 <img
-                  src="../images/img/spot1.jpg"
+                  src="../images/img/spot1.JPG"
                   alt="Spot welding electrodes"
                   className="w-full h-full
                        object-cover
@@ -1077,7 +1077,7 @@ export default function HomePage() {
               >
 
                 <img
-                  src="../images/img/spot3.jpg"
+                  src="../images/img/spot3.JPG"
                   alt="Copper welding electrodes"
                   className="w-full h-full
                        object-cover
@@ -1108,7 +1108,7 @@ export default function HomePage() {
               >
 
                 <img
-                  src="../images/img/spot4.jpg"
+                  src="../images/img/spot4.JPG"
                   alt="Industrial welding products"
                   className="w-full h-full
                        object-cover

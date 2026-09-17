@@ -57,17 +57,19 @@ export default function Footer() {
               <span className="text-sm">Email Us</span>
             </a>
 
-            <a
-              href="https://wa.me/917620335231"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 rounded-lg
-                         bg-green-500/10 border border-green-500/20
-                         hover:bg-green-500 hover:text-white transition"
-            >
-              <MessageCircle size={16} />
-              <span className="text-sm">WhatsApp</span>
-            </a>
+            
+  <a href={`https://wa.me/917620335231?text=${encodeURIComponent(
+    "Hi, I would like to enquire about your manufacturing services. Please share more details."
+  )}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-4 py-2 rounded-lg
+             bg-green-500/10 border border-green-500/20
+             hover:bg-green-500 hover:text-white transition"
+>
+  <MessageCircle size={16} />
+  <span className="text-sm">WhatsApp</span>
+</a>
 
           </div>
         </div>
